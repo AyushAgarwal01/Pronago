@@ -49,19 +49,21 @@
         <span class="text-wrapper">
         <br>
           <span class="letters">Join Us!</span>
-        <br>
         </span>
       </h1>
+
+      <h2 class="fieldss"><i>All fields are compulsory</i></h2>
+      <br>
 
 <div class="form-row">
     <div class="form-group col-sm-6">
 
         <label for="inputown">Owner's Name</label>
-        <input type="text" class="form-control" placeholder="Owner's Name" id="oname" name="oname" required>
+        <input type="text" class="form-control" placeholder="Owner's Name" id="oname" name="oname" required autocomplete="off">
     </div>
     <div class="form-group col-sm-6">
         <label for="inputcomp">Company's Name</label>
-        <input type="text" class="form-control" placeholder="Company's Name" id="cname" name="cname" required>
+        <input type="text" class="form-control" placeholder="Company's Name" id="cname" name="cname" required autocomplete="off">
     </div>
 </div>
 
@@ -69,37 +71,37 @@
     <div class="form-group col-sm-6">
 
         <label for="inputnum">Contact Number</label>
-        <input type="tel" class="form-control" placeholder="Contact Number" id="phone" name="phone" required>
+        <input type="number" class="form-control" placeholder="Contact Number" id="phone" name="phone" minlength="10" required autocomplete="off">
     </div>
     <div class="form-group col-sm-6">
         <label for="inputemail">Email ID</label>
-        <input type="email" class="form-control" placeholder="Email ID" id="email" name="email" required>
+        <input type="email" class="form-control" placeholder="Email ID" id="email" name="email" required autocomplete="off">
     </div>
 </div>
 
     <div class="form-group">
       <label for="inputAddress">Company's Address</label>
-      <input type="text" class="form-control" id="address" name="address" placeholder="House No. 3, Krishna Nagar" required>
+      <input type="text" class="form-control" id="address" name="address" placeholder="House No. 3, Krishna Nagar" required autocomplete="off">
     </div>
 
     <div class="form-row">
         <div class="form-group col-md-5">
           <label for="inputCity">City</label>
-          <input type="text" class="form-control" placeholder="City Name" id="city" name="city" required>
+          <input type="text" class="form-control" placeholder="City Name" id="city" name="city" required autocomplete="off">
         </div>
         <div class="form-group col-md-5">
           <label for="inputState">State</label>
-          <input type="text" class="form-control" id="state" placeholder="State Name" name="state" required>
+          <input type="text" class="form-control" id="state" placeholder="State Name" name="state" required autocomplete="off">
         </div>
         <div class="form-group col-md-2">
           <label for="inputZip">Zip Code</label>
-          <input type="text" class="form-control" id="zip" name="zip" placeholder="Zip Code" maxlength="6" minlength="6" required>
+          <input type="number" class="form-control" id="zip" name="zip" placeholder="Zip Code" maxlength="6" minlength="6" required autocomplete="off">
         </div>
     </div>
 
     <div class="form-group">
         <label for="inputGSTIN">GSTIN Number</label>
-        <input type="text" class="form-control" id="gstin" placeholder="GSTIN" name="gstin" required>
+        <input type="text" class="form-control" id="gstin" placeholder="GSTIN" name="gstin" required autocomplete="off">
     </div>
     <div class="form-group">
         <label for="textareaa">About the Company</label>
@@ -130,7 +132,7 @@
             <br>
 
             <i class="fa fa-envelope-o fa-2x" aria-hidden="true" style="color: white;"></i>
-            <span> example@pronago.com </span>
+            <span> support@pronago.com </span>
             <br><br>
             <i class="fa fa-mobile fa-2x" aria-hidden="true" style="color: white;"></i>
             <span>+91 - 99010545503 </span>

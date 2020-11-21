@@ -85,6 +85,16 @@ input:focus{
     outline: none;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 
 input[type=text]{
     border-radius: 10px;
@@ -92,6 +102,7 @@ input[type=text]{
     background-color: transparent;
     transition: border 0.5s;
     outline: none;
+    color: white;
 }
 
 input[type=text]:hover{
@@ -104,21 +115,23 @@ input[type=email]{
     background-color: transparent;
     transition: border 0.3s;
     outline: none;
+    color: white;
 }
 
 input[type=email]:hover{
     border: 2px solid hsl(198, 60%, 50%);
 }
 
-input[type=tel]{
+input[type=number]{
     border-radius: 10px;
     border: 2px solid white;
     background-color: transparent;
     transition: border 0.3s;
     outline: none;
+    color: white;
 }
 
-input[type=tel]:hover{
+input[type=number]:hover{
     border: 2px solid hsl(198, 60%, 50%);
 }
 
@@ -249,6 +262,12 @@ margin-bottom: 4px;
 
 /*--Footer-End--*/
 
+.fieldss{
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
 
 .ml9 {
     position: relative;

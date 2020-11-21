@@ -31,7 +31,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     background: linear-gradient(-45deg,  hsl(217, 28%, 22%) ,hsl(217, 28%, 13%),hsl(217, 28%, 22%) ,hsl(217, 28%, 13%));
     background-size: 400% 400%;
-	animation: gradient 10s ease infinite;
+	animation: gradient 7s ease infinite;
 }
 
 
@@ -137,8 +137,8 @@ html body{
     z-index: 9999;
     background: linear-gradient(hsl(218, 28%, 15%),hsl(217, 28%, 13%));
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     box-shadow: 0 0 20px #00000060;
 }
 
@@ -288,7 +288,7 @@ html body{
 }
 
 .mountain-words{
-    width: 80%;
+    width: 100%;
 }
 
 @media only screen and (min-width:800px)
@@ -314,8 +314,8 @@ html body{
 }
 
 .tile{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .access{
@@ -363,7 +363,7 @@ padding: 20px;
     width: 90%;
     border-radius: 15px;
     box-shadow: 2px 2px 4px hsl(198, 60%, 50%);
-    padding: 22px;
+    padding: 20px;
 }
 
 /*--Footer-Start--*/
