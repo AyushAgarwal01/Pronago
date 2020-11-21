@@ -130,7 +130,8 @@ div#content {
   height: 100%;
   padding: 60px;
   overflow-y: scroll;
-  background: #f2f2f2;
+  background: url("/img/top-view-white-river-rocks-background-horizontal.jpg")
+    no-repeat center bottom/cover;
   border-radius: 0;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
