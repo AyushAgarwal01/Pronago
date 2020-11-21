@@ -18,6 +18,13 @@
   position: relative;
   margin-bottom: 150px;
 }
+.category.airconditioner {
+  margin-left: 32%;
+}
+.category.foodbeverage {
+  margin-left: 32%;
+}
+
 .category-heading {
   padding-left: 10px;
   font-size: 3.8rem;
@@ -35,14 +42,29 @@
 .category .apps {
   padding-left: 50px;
 }
-.category .bags {
-  padding-left: 40px;
+.category .automobiles {
+  padding-left: 0;
 }
-.category .bags {
-  padding-left: 40px;
+.auto img {
+  padding-left: 25px;
 }
-.category .bags {
-  padding-left: 40px;
+.category .food {
+  padding-left: 0;
+}
+.foodbeverage img {
+  padding-left: 90px;
+}
+.category .aircon {
+  padding-left: 0;
+}
+.airconditioner img {
+  padding-left: 60px;
+}
+.category .kitchen {
+  padding-left: 0;
+}
+.kitchenware img {
+  padding-left: 20px;
 }
 
 .container {
@@ -95,6 +117,12 @@
   .container .list .list-items div p {
     line-height: 1.3rem;
   }
+  .category.airconditioner {
+    margin-left: 38%;
+  }
+  .category.foodbeverage {
+    margin-left: 38%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -103,6 +131,12 @@
   }
   .category {
     margin-left: 35%;
+  }
+  .category.airconditioner {
+    margin-left: 25%;
+  }
+  .category.foodbeverage {
+    margin-left: 25%;
   }
 }
 
@@ -116,5 +150,35 @@
   }
   .container .list .list-items img {
     margin-left: 20px;
+  }
+  .category.auto {
+    margin-left: 6%;
+  }
+  .category.kitchenware {
+    margin-left: 6%;
+  }
+  .category.airconditioner {
+    margin-left: 6%;
+  }
+  .category.foodbeverage {
+    margin-left: 6%;
+  }
+  .category.airconditioner .category-heading {
+    text-align: center;
+  }
+  .category.foodbeverage .category-heading {
+    text-align: center;
+  }
+  .category.foodbeverage img {
+    margin-left: 0;
+    padding-top: 70px;
+    height: 280px;
+    padding-left: 20px;
+  }
+  .category.airconditioner img {
+    margin-left: 0;
+    padding-top: 70px;
+    height: 280px;
+    padding-left: 20px;
   }
 }
