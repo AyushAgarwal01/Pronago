@@ -111,7 +111,7 @@ html {
 .container .list .list-items {
   display: flex;
   flex-direction: column;
-  background: url("/img/25101.jpg") no-repeat center center/cover;
+  background: url("./img/25101.jpg") no-repeat center center/cover;
   height: auto;
   width: auto;
   padding: 60px;
